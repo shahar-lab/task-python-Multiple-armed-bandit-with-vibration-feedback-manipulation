@@ -10,7 +10,7 @@ expInfo = {"subject": "0"}
 dlg = gui.DlgFromDict(expInfo, title="Two-armed bandit task XBOX")
 fileName = "XBox_rumblePress_" + expInfo["subject"] + "_" + data.getDateStr()
 dataFile = open(
-    fileName + ".csv", "w"
+    "data\\" + fileName + ".csv", "w"
 )  # a simple text file with 'comma-separated-values'
 dataFile.write("subject, block_type, block, condition, trial, right_offer, left_offer, offer_right_image, offer_left_image, exp_value_right, exp_value_left, exp_value_chosen, choice_location, choice_key, choice_card, unchosen_card, chosen_card_image, unchosen_card_image, rt, randomwalk_counter, exp_value1, exp_value2, exp_value3, exp_value4, reward\n")
 subjectN = expInfo["subject"]
@@ -37,7 +37,7 @@ mytimer = core.Clock()
 
 # Number of trials and Stimuli Pictures
 from random import sample
-n = 5 # Number of trials
+n = 50 # Number of trials
 stim_id = np.zeros(n)
 won = visual.ImageStim(win, image="rw.png", pos=[0, 0], size=4)
 lost = visual.ImageStim(win, image="ur.jpg", pos=[0, 0], size=4)
@@ -85,9 +85,9 @@ def set_vibration(controller, left_motor, right_motor):
 
 # Experiment Flow Function    
 def main():
-    instructionsPhase = False
-    trainPhase = False
-    quizPhase = False
+    instructionsPhase = True   
+    trainPhase = True
+    quizPhase = True
     gamePhase = True
     
     # Start Instruction Phase
