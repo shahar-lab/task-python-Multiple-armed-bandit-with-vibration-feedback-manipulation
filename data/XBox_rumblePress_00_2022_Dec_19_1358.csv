@@ -1,3 +1,0 @@
-subject, block_type, block, condition, trial, right_offer, left_offer, offer_right_image, offer_left_image, exp_value_right, exp_value_left, exp_value_chosen, choice_location, choice_key, choice_card, unchosen_card, chosen_card_image, unchosen_card_image, rt, randomwalk_counter, exp_value1, exp_value2, exp_value3, exp_value4, reward
-00, practice, 1, vibration during choice, 1, 4, 2, 8.jpg, 6.jpg, 0.466504194, 0.615232533, 0.466504194, right, 2, 4, 2, 8.jpg, 6.jpg, 0.5907147999387234, 1, 0.511076546, 0.615232533, 0.413504079, 0.466504194,1
-00, practice, 1, vibration during choice, 2, 2, 4, 6.jpg, 8.jpg, 0.631199867, 0.47234587, 0.47234587, left, 1, 4, 2, 8.jpg, 6.jpg, 8.067366399918683, 1, 0.517796443, 0.631199867, 0.375335495, 0.47234587,0,
